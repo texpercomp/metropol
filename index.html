@@ -1,118 +1,123 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <title>Metropol Denetim | Coming Soon Page</title>
+  <title>Metropol Denetim | Coming Soon Page</title>
 
-    <!-- CSS FILES -->                
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,200&family=Unbounded:wght@400;700&display=swap" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-icons.css" rel="stylesheet">
-    <link href="css/tooplate-kool-form-pack.css" rel="stylesheet">
+  <!-- CSS FILES -->                
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,200&family=Unbounded:wght@400;700&display=swap" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-icons.css" rel="stylesheet">
+  <link href="css/tooplate-kool-form-pack.css" rel="stylesheet">
 
-    <style>
-        .custom-btn {
-            background-color: #fff;
-            color: #000;
-            border: 2px solid #000;
-            padding: 10px 20px;
-            border-radius: 25px;
-            font-weight: bold;
-            text-align: center;
-            display: inline-block;
-            text-decoration: none;
-            margin: 10px;
-            transition: all 0.3s ease;
-        }
+  <style>
+    .custom-btn {
+      background-color: #fff;
+      color: #000;
+      border: 2px solid #000;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-weight: bold;
+      text-align: center;
+      display: inline-block;
+      text-decoration: none;
+      margin: 10px;
+      transition: all 0.3s ease;
+    }
 
-        .custom-btn:hover {
-            background-color: #000;
-            color: #fff;
-            cursor: pointer;
-        }
+    .custom-btn:hover {
+      background-color: #000;
+      color: #fff;
+      cursor: pointer;
+    }
 
-        .powered-by {
-            position: relative;
-            display: inline-block;
-            font-size: 1rem;
-            color: #fff;
-            overflow: hidden;
-            padding: 5px 15px;
-            margin-top: -10px;
-            margin-bottom: 20px;
-            font-weight: bold;
-        }
+    .powered-by {
+      position: relative;
+      display: inline-block;
+      font-size: 1rem;
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+      overflow: hidden;
+      padding: 5px 15px;
+      margin-top: -10px;
+      margin-bottom: 20px;
+    }
 
-        .powered-by::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: -75%;
-            width: 50%;
-            height: 100%;
-            background: linear-gradient(120deg, transparent, #FFD700, transparent);
-            animation: shimmer 2s infinite;
-        }
+    .powered-by::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.8), transparent);
+      animation: shimmer 2.5s infinite;
+    }
 
-        @keyframes shimmer {
-            0% {
-                left: -75%;
-            }
-            100% {
-                left: 125%;
-            }
-        }
-    </style>
+    @keyframes shimmer {
+      0% {
+        left: -100%;
+      }
+      100% {
+        left: 100%;
+      }
+    }
+
+    .powered-by:hover {
+      color: #FFD700;
+    }
+  </style>
 </head>
 
 <body>
-    <main>
-        <header class="site-header">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-lg-12 col-12 d-flex align-items-center">
-                        <div>
-                            <a href="mailto:info@metropoldenetim.com" class="custom-btn">Bize Ulaşın
-                                <i class="bi bi-arrow-right ms-2"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+  <main>
+    <header class="site-header">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-12 col-12 d-flex align-items-center">
+            <div>
+              <a href="mailto:info@metropoldenetim.com" class="custom-btn">Bize Ulaşın
+                <i class="bi bi-arrow-right ms-2"></i>
+              </a>
             </div>
-        </header>
+          </div>
+        </div>
+      </div>
+    </header>
 
-        <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-12 mx-auto text-center">
-                        <h1 class="text-white mt-2 mb-4 pb-2">Yakında Hizmetinizde</h1>
+    <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-12 mx-auto text-center">
+            <h1 class="text-white mt-2 mb-4 pb-2">Yakında Hizmetinizde</h1>
 
-                        <!-- Yeni eklenen "Powered by Texper" yazısı -->
-                        <div class="powered-by">Powered by Texper</div>
-                    </div>
-                </div>
-            </div>
+            <!-- Animated "Powered by Texper" with shimmer effect -->
+            <a href="https://texper.net" class="powered-by" target="_blank">Powered by Texper</a>
+          </div>
+        </div>
+      </div>
 
-            <div class="video-wrap">
-                <video autoplay loop muted class="custom-video" poster="">
-                    <source src="videos/video.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-        </section>
-    </main>
+      <div class="video-wrap">
+        <video autoplay loop muted class="custom-video" poster="">
+          <source src="videos/video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+  </main>
 
-    <!-- JAVASCRIPT FILES -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/countdown.js"></script>
-    <script src="js/init.js"></script>
+  <!-- JAVASCRIPT FILES -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/countdown.js"></script>
+  <script src="js/init.js"></script>
 </body>
 </html>
